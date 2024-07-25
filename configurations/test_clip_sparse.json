@@ -1,0 +1,20 @@
+{
+    "pretrained_model": "CLIP_ViT-B32",
+    "dataset": "cifar10",
+    "generate_captions": true,
+    "type_attack": "one_pixel2",
+    "type_target": "second",
+    "pixels": 7,
+    "popsize": 300,
+    "maxiter": 100,
+    "crossover": 0.8,
+    "mutation": 0.9,
+    "strategy": "best1exp",
+    "targeted": true,
+    "save_plot": false,
+    "stats": true,
+    "fitness_function": "softmax_loss5",
+    "log_file": "targeted",
+    "log_type": "info",
+    "code": "plots"
+}

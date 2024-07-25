@@ -1,0 +1,22 @@
+{
+    "pretrained_model": "CLIP_ViT-B32",
+    "dataset": "imagenet",
+    "generate_captions": true,
+    "type_attack": "one_anti_diag",
+    "type_target": "second",
+    "pixels": 4,
+    "popsize": 300,
+    "maxiter": 100,
+    "targeted": false,
+    "save_plot": false,
+    "stats": true,
+    "strategy": "best2exp",
+    "mutation": 0.55,
+    "crossover": 0.8,
+    "w": 0,
+    "h": 0,
+    "fitness_function": "softmax_loss13",
+    "log_file": "one_anti_diag_clip",
+    "log_type": "info",
+    "code": "op"
+}
